@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.biitalumnidirectory">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Groups.CreateGroup_Activity" />
+        <activity android:name=".Groups.Groups_Activity" />
+        <activity android:name=".Groups.GroupData_Activity" />
+        <activity android:name=".Survey.AttemptSurvey1_Activity" />
+        <activity android:name=".Alumni_Notification.Alumni_Notification_Activity" />
+        <activity android:name=".SearchAlumni.Show_Searched_Clicked_Profile_Activity" />
+        <activity android:name=".EditProfile.Add_FamilyInfo_Activity" />
+        <activity android:name=".EditProfile.Add_JobInfo_Activity" />
+        <activity android:name=".EditProfile.Edit_FamilyInfo_Activity" />
+        <activity android:name=".EditProfile.Edit_JobInfo_Activity" />
+        <activity android:name=".EditProfile.Add_PublicationInfo_Activity" />
+        <activity android:name=".EditProfile.Add_EducationInfo_Activity" />
+        <activity android:name=".EditProfile.Edit_EducationInfo_Activity" />
+        <activity android:name=".EditProfile.Edit_PersonalInfo_Activity" />
+        <activity android:name=".Filter_Alumni_Post_SJENotification_Activity" />
+        <activity android:name=".Groups.Add_GroupMembers_Activity" />
+        <activity android:name=".Groups.GroupMember_Activity" />
+        <activity android:name=".Filter_Admin_Post_SJENotification_Activity" />
+        <activity android:name=".Survey.AttemptSurvey2_Activity" />
+        <activity android:name=".EditProfile.EmailVerification2_forPersonalInfo_Activity" />
+        <activity android:name=".EditProfile.EmailVerification1_forPersonalInfo_Activity" />
+        <activity android:name=".EditProfile.Edit_PublicationInfo_Activity" />
+        <activity android:name=".Survey.Survey_Statistics_BarChart_Activity"/>
+        <activity
+            android:name=".Login_Classes.ForgetPassword2_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login_Classes.ForgetPassword_ByEmail_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login_Classes.ForgetPassword_ByNumber_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login_Classes.ForgetPassword_ResetPassword_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login_Classes.Registration_EmailVerification2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login_Classes.ForgetPassword1_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Events.ShowEvent_Activity" />
+        <activity android:name=".Jobs.ShowJob_Activity" />
+        <activity android:name=".Admin_Notification.Admin_Notification_Activity" />
+
+        <activity
+            android:name=".Login_Classes.Splash_Screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login_Classes.Registration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login_Classes.Registration_EmailVerification1"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".Survey.Survey_Statistics_Activity"/>
+
+        <activity
+            android:name=".Login_Classes.Login"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".EditProfile.EditAttributes_Activity" />
+        <activity android:name=".Old_Picture" />
+        <activity android:name=".Survey.Posted_Survey_Activity" />
+        <activity android:name=".Events.PostAgain_Event_Activity" />
+        <activity android:name=".EditProfile.Full_Screen_Image_Activity" />
+        <activity android:name=".Jobs.EditJob_Activity" />
+        <activity android:name=".Jobs.PostJob_Again_Activity" />
+        <activity android:name=".Jobs.Posted_Job_Activity" />
+        <activity android:name=".Jobs.UnPosted_Job_Activity" />
+        <activity android:name=".Events.UnPosted_Event_Activity" />
+        <activity android:name=".Events.EditEvent_Activity" />
+        <activity android:name=".Events.CreateEvent_Activity" />
+        <activity android:name=".Survey.UnPosted_Survey_Activity" />
+        <activity android:name=".Events.Posted_Event_Activity" />
+        <activity android:name=".Survey.CreateSurvey2_Activity" />
+        <activity android:name=".Survey.CreateSurvey1_Activity" />
+        <activity android:name=".Jobs.CreateJob_Activity" />
+        <activity android:name=".EditProfile.NumberVerification2" />
+        <activity android:name=".EditProfile.NumberVerification1" />
+
+        <activity
+            android:name=".Admin_Image_Upload"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

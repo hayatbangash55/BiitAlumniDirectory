@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    >
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button3"
+        app:defaultQueryHint="Enter Name or RegNo..."
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        />
+
+    <Button
+        android:id="@+id/btn_DeleteGroupMembers"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:background="@drawable/white_button"
+        android:onClick="btn_onClick_addMembers"
+        android:text="Add Members"
+        android:textAllCaps="false"
+        android:textAppearance="@style/White_button_TextApperance"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dp"/>
+
+
+
+</LinearLayout>

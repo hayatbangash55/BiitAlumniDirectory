@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/white_border"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Audience"
+            android:textSize="18sp"
+            android:textAlignment="center"/>
+
+
+        <Spinner
+        android:id="@+id/spinner_audience"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/btn_addGroupMembers"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:background="@drawable/white_button"
+        android:onClick="btn_onClick_addGroups"
+        android:text="Post"
+        android:textAllCaps="false"
+       android:textAppearance="@style/White_button_TextApperance"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+</LinearLayout>

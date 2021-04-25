@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/my_profile"
+        android:title="My Profile"
+        android:icon="@drawable/ic_account_circle_black_24dp" />
+
+    <item
+        android:id="@+id/edit_profile"
+        android:title="Edit Profile"
+        android:icon="@drawable/ic_edit_profile"/>
+
+    <item
+        android:id="@+id/friend_list"
+        android:title="Friends"
+        android:icon="@drawable/ic_friends"/>
+
+    <item
+        android:id="@+id/groups"
+        android:title="Groups"
+        android:icon="@drawable/ic_groups"/>
+
+
+    <item
+        android:id="@+id/Search"
+        android:title="Search Alumni"
+        android:icon="@drawable/ic_search_friends"/>
+
+    <item
+        android:id="@+id/SearchEventsAndJobs"
+        android:title="Search - Events / Jobs"
+        android:icon="@drawable/ic_job_search"/>
+
+
+    <item
+        android:id="@+id/Alumni_Events"
+        android:title="Events"
+        android:icon="@drawable/ic_event_note_black_24dp"/>
+
+    <item
+        android:id="@+id/Alumni_Job"
+        android:title="Job"
+        android:icon="@drawable/ic_job_menu"/>
+
+    <item
+        android:id="@+id/Alumni_Survey"
+        android:title="Survey"
+        android:icon="@drawable/ic_survey_menu"/>
+
+    <item
+        android:id="@+id/alumni_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"/>
+
+
+</menu>
